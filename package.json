@@ -1,0 +1,54 @@
+{
+  "name": "is-valid-address",
+  "version": "0.1.0",
+  "description": "Lightweight TypeScript library for format-level cryptocurrency address validation across multiple chains",
+  "main": "./out/index.js",
+  "types": "./out/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./out/index.d.ts",
+      "default": "./out/index.js"
+    }
+  },
+  "files": [
+    "out",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf out",
+    "lint": "eslint --ignore-pattern=out",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run lint && npm test && npm run build"
+  },
+  "keywords": [
+    "crypto",
+    "blockchain",
+    "ethereum",
+    "bitcoin",
+    "solana",
+    "address",
+    "validation",
+    "multichain",
+    "trx",
+    "ltc",
+    "doge",
+    "bch",
+    "zec",
+    "xmr"
+  ],
+  "author": "Bestflow",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.39.4",
+    "neostandard": "^0.13.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.4"
+  }
+}
