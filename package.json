@@ -45,6 +45,14 @@
   ],
   "author": "Bestflow",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestflow-exchange/is-valid-address.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bestflow-exchange/is-valid-address/issues"
+  },
+  "homepage": "https://github.com/bestflow-exchange/is-valid-address#readme",
   "devDependencies": {
     "eslint": "^9.39.4",
     "neostandard": "^0.13.0",
