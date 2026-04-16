@@ -1,6 +1,6 @@
 {
   "name": "is-valid-address",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lightweight TypeScript library for format-level cryptocurrency address validation across multiple chains",
   "main": "./out/index.js",
   "types": "./out/index.d.ts",
